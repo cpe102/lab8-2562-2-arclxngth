@@ -1,9 +1,27 @@
 #include<iostream>
 using namespace std;
 
-//Write the function printO() here
+void printO (int N, int M){
+
+	int x,y;
+
+	if(N>0 && M>0){
+
+		for(y=1; y<=N; y++){
+			for(x=1; x<=M; x++){
+
+			cout<<'O';
+
+			}
+			cout<<endl;
+			x=1;
+		}
+	}
+	else cout<<"Invalid Value";
+}
 
 int main(){
+
 	
 	printO(2,2);
 	cout << "\n";
